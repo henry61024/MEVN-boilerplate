@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/henry61024/MEVN-boilerplate-client.git
+[submodule "server"]
+	path = server
+	url = https://github.com/henry61024/MEVN-boilerplate-server.git
