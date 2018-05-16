@@ -2,8 +2,7 @@ dirname=$(pwd)
 
 function setGitEnvironments() {
     echo "===== Setting git environments ====="
-    cd ${dirname}/server
-    git update-index --skip-worktree ./public/*
+    git submodule update --init
 }
 
 function npmInstallClient() {
