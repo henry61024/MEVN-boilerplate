@@ -7,13 +7,13 @@ function setGitEnvironments() {
 
 function npmInstallClient() {
     echo "===== Installing client npm modules ====="
-    cd ${dirname}/client
+    cd "${dirname}/client"
     npm install
 }
 
 function npmInstallServer() {
     echo "===== Installing server npm modules ====="
-    cd ${dirname}/server
+    cd "${dirname}/server"
     npm install
 }
 
