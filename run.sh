@@ -14,4 +14,3 @@ function startServer() {
 
 buildClient
 startServer
-echo "===== Server started!! ====="
